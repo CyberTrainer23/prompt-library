@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Prompt Library</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search prompts...">
+            <div class="filters">
+                <select id="business-unit-filter">
+                    <option value="">All Business Units</option>
+                </select>
+                <select id="role-filter">
+                    <option value="">All Roles</option>
+                </select>
+            </div>
+        </div>
+        <div id="prompt-container" class="prompt-container">
+            <!-- Prompts will be loaded here by JavaScript -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
