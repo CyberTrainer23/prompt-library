@@ -122,14 +122,48 @@ main {
     color: var(--secondary-text);
 }
 
-.prompt-full {
+/* Modal Styles */
+.modal-overlay {
     display: none; /* Hidden by default */
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
-.prompt-full pre {
+.modal-overlay.visible {
+    display: flex;
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    border: 1px solid var(--border-color);
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: var(--primary-text);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#modal-prompt-content pre {
     background-color: var(--header-bg);
     padding: 1rem;
     border-radius: 0.25rem;
@@ -140,7 +174,7 @@ main {
     border: 1px solid var(--border-color);
 }
 
-.prompt-full .copy-btn {
+#modal-prompt-content .copy-btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.6rem 1.2rem;
@@ -154,7 +188,7 @@ main {
     transition: background-color 0.2s;
 }
 
-.prompt-full .copy-btn:hover {
+#modal-prompt-content .copy-btn:hover {
     background-color: #4a8ac8;
 }
 

@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('search-bar');
     const businessUnitFilter = document.getElementById('business-unit-filter');
     const roleFilter = document.getElementById('role-filter');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalContent = document.getElementById('modal-prompt-content');
+    const modalClose = document.getElementById('modal-close');
 
     let prompts = [];
 
@@ -38,9 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Display prompts in the container
     function displayPrompts(promptsToDisplay) {
         promptContainer.innerHTML = '';
-        promptsToDisplay.forEach(prompt => {
+        promptsToDisplay.forEach((prompt, index) => {
             const card = document.createElement('div');
             card.className = 'prompt-card';
+            card.dataset.promptId = index; // Use index as a simple ID
 
             const title = document.createElement('h2');
             title.textContent = prompt.title;
@@ -56,19 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description.textContent = prompt.description;
             card.appendChild(description);
 
-            const fullPrompt = document.createElement('div');
-            fullPrompt.className = 'prompt-full';
-
-            const pre = document.createElement('pre');
-            pre.textContent = prompt.prompt;
-            fullPrompt.appendChild(pre);
-
-            const copyBtn = document.createElement('button');
-            copyBtn.className = 'copy-btn';
-            copyBtn.textContent = 'Copy Prompt';
-            fullPrompt.appendChild(copyBtn);
-
-            card.appendChild(fullPrompt);
             promptContainer.appendChild(card);
         });
     }
@@ -99,24 +90,44 @@ document.addEventListener('DOMContentLoaded', () => {
     businessUnitFilter.addEventListener('change', filterPrompts);
     roleFilter.addEventListener('change', filterPrompts);
 
-    // Event listener for expanding/collapsing prompts and copying
+    // Event listener for opening the modal
     promptContainer.addEventListener('click', (e) => {
         const card = e.target.closest('.prompt-card');
-        if (!card) return;
+        if (card) {
+            const promptId = parseInt(card.dataset.promptId, 10);
+            const prompt = prompts[promptId];
+            openModal(prompt);
+        }
+    });
 
-        if (e.target.classList.contains('copy-btn')) {
-            const promptText = card.querySelector('pre').textContent;
+    function openModal(prompt) {
+        modalContent.innerHTML = `
+            <pre>${prompt.prompt}</pre>
+            <button class="copy-btn">Copy Prompt</button>
+        `;
+        modalOverlay.classList.add('visible');
+
+        // Add event listener for the new copy button inside the modal
+        modalContent.querySelector('.copy-btn').addEventListener('click', (e) => {
+            const promptText = modalContent.querySelector('pre').textContent;
             navigator.clipboard.writeText(promptText).then(() => {
                 e.target.textContent = 'Copied!';
                 setTimeout(() => {
                     e.target.textContent = 'Copy Prompt';
                 }, 2000);
             });
-        } else {
-            const fullPrompt = card.querySelector('.prompt-full');
-            fullPrompt.style.display = fullPrompt.style.display === 'block' ? 'none' : 'block';
+        });
+    }
+
+    function closeModal() {
+        modalOverlay.classList.remove('visible');
+    }
+
+    // Event listeners for closing the modal
+    modalClose.addEventListener('click', closeModal);
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+            closeModal();
         }
     });
-
-    // No longer need escapeHtml
 });
