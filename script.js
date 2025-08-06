@@ -101,22 +101,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function openModal(prompt) {
-        modalContent.innerHTML = `
-            <pre>${prompt.prompt}</pre>
-            <button class="copy-btn">Copy Prompt</button>
-        `;
-        modalOverlay.classList.add('visible');
+        // Clear previous content
+        modalContent.innerHTML = '';
 
-        // Add event listener for the new copy button inside the modal
-        modalContent.querySelector('.copy-btn').addEventListener('click', (e) => {
-            const promptText = modalContent.querySelector('pre').textContent;
-            navigator.clipboard.writeText(promptText).then(() => {
+        // Create elements programmatically to avoid HTML parsing issues
+        const pre = document.createElement('pre');
+        pre.textContent = prompt.prompt;
+
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'copy-btn';
+        copyBtn.textContent = 'Copy Prompt';
+
+        copyBtn.addEventListener('click', (e) => {
+            navigator.clipboard.writeText(pre.textContent).then(() => {
                 e.target.textContent = 'Copied!';
                 setTimeout(() => {
                     e.target.textContent = 'Copy Prompt';
                 }, 2000);
             });
         });
+
+        modalContent.appendChild(pre);
+        modalContent.appendChild(copyBtn);
+        modalOverlay.classList.add('visible');
     }
 
     function closeModal() {
