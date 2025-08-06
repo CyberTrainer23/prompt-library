@@ -1,9 +1,5 @@
-Click on the cell below to choose a business unit,,,
-
-Business Unit,,,
-Data & Analytics,,,
-Title,Role,Description,Prompt
-AI-Powered Scheduling and Automated Reminders for Team Coordination,Executive Assistant; Office Manager,Managing complex schedules; coordinating meetings; and setting reminders efficiently using AI,"<context>
+Business Unit,Title,Role,Description,Prompt
+Administration / Operations,AI-Powered Scheduling and Automated Reminders for Team Coordination,Executive Assistant; Office Manager,Managing complex schedules; coordinating meetings; and setting reminders efficiently using AI,"<context>
   The content will be used to manage and coordinate schedules for executives and teams; automate meeting scheduling; send reminders; and resolve conflicts based on availability and preferences. Outputs should include a proposed schedule; automated meeting invites; reminders for key deadlines; and recommendations for conflict resolution or rescheduling. Ensure all outputs are adaptable for fast-paced; multi-team environments.
 </context>
 
@@ -18,7 +14,7 @@ AI-Powered Scheduling and Automated Reminders for Team Coordination,Executive As
 <tone>
   Use a professional; organized; and supportive tone. Aim to streamline administrative workflows; reduce manual effort; and enhance reliability in schedule management.
 </tone>"
-AI-Assisted Graphic Design Concept Ideation and Mockup Generation,Graphic Designer; UX/UI Designer,Generating diverse design ideas and mockups rapidly using AI tools like ChatGPT or Gemini,"<context>
+Creative / Design,AI-Assisted Graphic Design Concept Ideation and Mockup Generation,Graphic Designer; UX/UI Designer,Generating diverse design ideas and mockups rapidly using AI tools like ChatGPT or Gemini,"<context>
   The content will be used to generate creative graphic design concepts and mockups using AI-powered image generation tools. The goal is to produce a variety of visually appealing; brand-aligned mockups and design ideas quickly; providing a strong foundation for refinement and client feedback. Output should include several distinct design directions or visual mockups; each accompanied by a brief description of the concept; alignment with brand guidelines; and suggestions for refinement.
 </context>
 
@@ -33,7 +29,7 @@ AI-Assisted Graphic Design Concept Ideation and Mockup Generation,Graphic Design
 <tone>
   Use a creative; professional; and collaborative tone. Aim to spark inspiration; streamline the ideation process; and support designers in achieving both originality and efficiency.
 </tone>"
-AI-Driven Scripting for Customer Service Responses,Customer Support Specialist,Generating tailored; empathetic; and brand-consistent customer response scripts efficiently,"<context>
+Customer Support,AI-Driven Scripting for Customer Service Responses,Customer Support Specialist,Generating tailored; empathetic; and brand-consistent customer response scripts efficiently,"<context>
   The content will be used to draft personalized; empathetic customer service responses that maintain brand voice and effectively address individual customer issues. Scripts must account for customer history; query type; and preferred communication style. Output should include sample replies for common queries; templates for escalation; and tone guidelines to ensure consistency across responses.
 </context>
 
@@ -48,7 +44,7 @@ AI-Driven Scripting for Customer Service Responses,Customer Support Specialist,G
 <tone>
   Use a professional; empathetic; and supportive tone. Aim to guide customer support teams in delivering fast; thoughtful; and effective responses that reflect positively on the brand.
 </tone> "
-AI-Accelerated Data Analysis and Insight Generation,Data Analyst; Business Analyst,Summarizing large datasets; identifying patterns; and generating actionable insights for decision-makers,"<context>
+Data & Analytics,AI-Accelerated Data Analysis and Insight Generation,Data Analyst; Business Analyst,Summarizing large datasets; identifying patterns; and generating actionable insights for decision-makers,"<context>
   The content will be used to analyze and summarize large; complex datasets; identify patterns and anomalies; and generate actionable insights for business decision-makers. The output should include a concise summary of key findings; visualizations (such as charts or graphs); highlighted anomalies or trends; and specific; data-driven recommendations. Results should be formatted for easy inclusion in business reports or executive presentations.
 </context>
 
@@ -63,7 +59,7 @@ AI-Accelerated Data Analysis and Insight Generation,Data Analyst; Business Analy
 <tone>
   Use a professional; analytical; and straightforward tone. Aim to inform and empower business leaders with clear; actionable intelligence.
 </tone>"
-AI-Assisted Code Writing and Debugging,Software Developer; Engineer,Writing; auto-completing; and debugging code snippets quickly and efficiently using AI-powered tools,"<context>
+Engineering / Software Development,AI-Assisted Code Writing and Debugging,Software Developer; Engineer,Writing; auto-completing; and debugging code snippets quickly and efficiently using AI-powered tools,"<context>
   The content will be used to write and debug code snippets using AI tools such as GitHub Copilot. The goal is to produce clean; functional; and efficient code rapidly; troubleshoot bugs in real-time; and keep projects on schedule. Output should include suggested code snippets; auto-completed functions; real-time debugging advice; and error explanations for various programming languages and frameworks.
 </context>
 
@@ -78,7 +74,7 @@ AI-Assisted Code Writing and Debugging,Software Developer; Engineer,Writing; aut
 <tone>
   Use a professional; concise; and instructional tone. Aim to support developers in boosting productivity and reducing errors through clear; actionable guidance.
 </tone>"
-AI-Assisted Financial Trend Prediction and Automated Reporting,Financial Analyst; Accountant,Analyzing financial data; predicting trends; and generating detailed reports for decision-making,"<context>
+Finance,AI-Assisted Financial Trend Prediction and Automated Reporting,Financial Analyst; Accountant,Analyzing financial data; predicting trends; and generating detailed reports for decision-making,"<context>
   The content will be used to process large financial datasets; identify key trends; and generate detailed; formatted financial reports for leadership and stakeholders. The goal is to produce clear projections; actionable insights; and executive summaries to support timely; data-driven decisions. Output should include trend analysis; key findings; visualizations (charts/tables); and concise recommendations or next steps.
 </context>
 
@@ -93,7 +89,7 @@ AI-Assisted Financial Trend Prediction and Automated Reporting,Financial Analyst
 <tone>
   Use a professional; analytical; and executive-ready tone. Aim to deliver high-impact insights efficiently and clearly; enabling leadership to make informed; timely decisions.
 </tone>"
-Comprehensive Employee Performance Review Prompt,HR Manager; People Manager; Team Lead,Writing structured; constructive employee performance reviews,"<context>
+Human Resources,Comprehensive Employee Performance Review Prompt,HR Manager; People Manager; Team Lead,Writing structured; constructive employee performance reviews,"<context>
   The content will be used to draft a comprehensive employee performance review. The user will provide details such as the employee's name; role; major responsibilities; specific achievements; areas for improvement; and any feedback from peers or clients.
   The output should include a structured performance review with the following sections: Summary of Performance; Key Strengths; Notable Achievements; Areas for Improvement; and Actionable Development Goals. Use bullet points or short paragraphs for clarity.
 </context>
@@ -110,7 +106,7 @@ Comprehensive Employee Performance Review Prompt,HR Manager; People Manager; Tea
 <tone>
   Use a constructive; supportive; and professional tone. The content should aim to inform; encourage development; and recognize contributions.
 </tone>"
-AI-Powered Resume Screening & Job Description Generation Prompt,HR Manager; Recruiter,Screening resumes and generating tailored job descriptions efficiently,"<context>
+Human Resources,AI-Powered Resume Screening & Job Description Generation Prompt,HR Manager; Recruiter,Screening resumes and generating tailored job descriptions efficiently,"<context>
   The content will be used to automate and enhance the recruitment process by pre-screening resumes based on specific criteria and generating clear; compelling job descriptions. The user will provide requirements such as role title; key responsibilities; desired qualifications; and company culture notes. 
   The output should include (1) a shortlist of screened candidates with summary reasons for selection and (2) a tailored job description reflecting the role's needs and the company's values. 
   Present results in a structured; easy-to-review format (tables; bullet points; or clear sections).
@@ -128,7 +124,7 @@ AI-Powered Resume Screening & Job Description Generation Prompt,HR Manager; Recr
 <tone>
   Use a professional; clear; and supportive tone. The content should help inform and streamline hiring decisions; supporting efficiency and candidate quality.
 </tone>"
-Comprehensive Business Management Career Pathways Table,Career Coach; HR Manager; Talent Development Specialist,Guiding individuals to identify and evaluate business management career opportunities and advancement routes,"<context>
+Human Resources / Career Development,Comprehensive Business Management Career Pathways Table,Career Coach; HR Manager; Talent Development Specialist,Guiding individuals to identify and evaluate business management career opportunities and advancement routes,"<context>
 The content will be used as an interactive career planning tool for individuals exploring or advancing careers in business management. Present the information in a comprehensive table format; making it easy for users to compare roles and plan their progression. Include a wide variety of job titles across different business functions and seniority levels.
 **INFORMATION PROVIDED:**  
 - Experience level: [INSERT EXPERIENCE LEVEL]  
@@ -143,19 +139,8 @@ You are an expert business management career guide with extensive knowledge of c
 - Department/Specialization
 - Key Responsibilities
 - Average Salary Range (indicate region/country if possible)
-- Growth Potential (use emoji key: â­ to â­â­â­â­â­)
-
-Include at least 20 unique job titles spanning multiple departments (e.g.; Operations; Marketing; Finance; Sales; HR; Strategy; Project Management; Customer Success; etc.) and seniority levels. Tailor recommendations to match the user's experience level; desired function; and salary expectations where provided. Salary figures and growth ratings must reflect current market standards (specify if US; UK; or global). Each responsibility description should be concise and clear. The table should be visually appealing and easy to read.
-</hone>
-
-<audience>
-The primary audience is business professionals and career changers seeking clear guidance on business management career paths. Language should be informative; encouraging; and practical; suitable for users making significant career decisions.
-</audience>
-
-<tone>
-Maintain an expert; supportive; and aspirational tone. Aim to inform and empower users in making strategic career moves in the business management field.
-</tone>"
-AI-Powered Creation of Personalized Educational Materials and Quizzes,Educator; Trainer,Generating tailored lesson plans; learning materials; and quizzes for diverse learner needs,"<context>
+- Growth Potential (use emoji key: â"
+Learning & Development / Education,AI-Powered Creation of Personalized Educational Materials and Quizzes,Educator; Trainer,Generating tailored lesson plans; learning materials; and quizzes for diverse learner needs,"<context>
   The content will be used to generate personalized learning materials; lesson plans; and quizzes for a diverse student audience. Outputs should be tailored to different learning levels; subject requirements; and learner profiles. Each output must include a detailed lesson plan; relevant learning objectives; a set of quiz questions with answers; and options for differentiated instruction or adaptive learning paths.
 </context>
 
@@ -170,7 +155,7 @@ AI-Powered Creation of Personalized Educational Materials and Quizzes,Educator; 
 <tone>
   Use an encouraging; professional; and accessible tone. Aim to support educators in delivering effective; inclusive; and engaging learning experiences.
 </tone>"
-AI-Driven Legal Contract Drafting and Review Prompt,Legal Assistant; Paralegal,Drafting accurate; compliant contracts and legal documents efficiently,"<context>
+Legal,AI-Driven Legal Contract Drafting and Review Prompt,Legal Assistant; Paralegal,Drafting accurate; compliant contracts and legal documents efficiently,"<context>
   The content will be used to draft legal contracts and documents for a legal team; with the goal of maximizing efficiency while ensuring accuracy; compliance; and clarity in legal language. The output should be a draft contract or legal document tailored to the input specifications. 
   The user will provide key details such as contract type; involved parties; jurisdiction; and specific clauses or requirements. The draft should highlight any flagged inconsistencies; compliance issues; or areas that may require further legal review.
   Format: Present the drafted contract as a structured legal document with clear section headings and bullet points where needed for clarity.
@@ -188,7 +173,7 @@ AI-Driven Legal Contract Drafting and Review Prompt,Legal Assistant; Paralegal,D
 <tone>
   Use a formal; precise; and professional tone appropriate for legal documentation. Aim to inform and guide the legal team; ensuring both clarity and compliance.
 </tone>"
-Optimized Blog Post Creation with Generative AI,Content Writer; Digital Marketer,Creating SEO-optimized; thought leadership blog posts efficiently,"<context>
+Marketing,Optimized Blog Post Creation with Generative AI,Content Writer; Digital Marketer,Creating SEO-optimized; thought leadership blog posts efficiently,"<context>
   The content will be used as a published blog post on the company website. The goal is to create a high-quality; SEO-optimized article that demonstrates industry expertise and thought leadership. The blog should strategically incorporate provided keywords to align with specific products and services. Output should be a well-structured blog post suitable for external audiences; including headings; subheadings; and relevant calls to action.
   **Details Provided:**  
   - Topic: [INSERT BLOG TOPIC]  
@@ -209,7 +194,7 @@ Optimized Blog Post Creation with Generative AI,Content Writer; Digital Marketer
 <tone>
   Use a professional; authoritative; and informative tone. The content should educate; build trust; and encourage readers to engage further with the brand.
 </tone>"
-Generative AI-Powered Social Media Content Creation,Social Media Manager; Digital Marketing Specialist,Streamlining the creation of consistent; engaging social media posts using AI tools,"<context>
+Marketing,Generative AI-Powered Social Media Content Creation,Social Media Manager; Digital Marketing Specialist,Streamlining the creation of consistent; engaging social media posts using AI tools,"<context>
   This content will be used to automate and streamline the creation of social media posts for a brand or business. The output should include draft posts tailored for multiple platforms (such as Facebook; LinkedIn; Instagram; and Twitter); suggested relevant hashtags; and platform-specific copy adjustments. Content must align with the brand's messaging and respond to current trends to maximize audience engagement. Output format: bullet points for key recommendations and sample posts for each platform.
 </context>
 
@@ -224,7 +209,7 @@ Generative AI-Powered Social Media Content Creation,Social Media Manager; Digita
 <tone>
   Use a professional; concise; and helpful tone. Aim to inform and empower marketing teams; providing clear guidance and actionable examples.
 </tone>"
-AI-Driven Marketing Collateral Creation,Marketer; Creative Team Member,Accelerating the creation of brochures; one-pagers; case studies; and presentations using AI tools,"<context>
+Marketing,AI-Driven Marketing Collateral Creation,Marketer; Creative Team Member,Accelerating the creation of brochures; one-pagers; case studies; and presentations using AI tools,"<context>
   The content will be used to rapidly generate high-quality marketing collateral; such as brochures; one-pagers; case studies; and presentations. The goal is to produce materials that clearly communicate the brand's value proposition and set it apart from competitors; even on short notice. The output should include customizable templates; sample polished copy; and visual content suggestions. Recommendations should be tailored for different marketing materials and adaptable to various industries or campaign needs.
 </context>
 
@@ -239,7 +224,7 @@ AI-Driven Marketing Collateral Creation,Marketer; Creative Team Member,Accelerat
 <tone>
   Use a professional; efficient; and solution-oriented tone. Aim to empower creative teams with clear guidance and practical resources to boost productivity and campaign agility.
 </tone>"
-AI-Enhanced Social Media Content Planning and Scheduling,Social Media Manager; Digital Marketing Manager,Streamlining content idea generation; post scheduling; and maintaining consistent social media engagement using AI,"<context>
+Marketing,AI-Enhanced Social Media Content Planning and Scheduling,Social Media Manager; Digital Marketing Manager,Streamlining content idea generation; post scheduling; and maintaining consistent social media engagement using AI,"<context>
   The content will be used to plan; schedule; and generate engaging social media posts and content ideas across multiple platforms (such as Facebook; LinkedIn; Instagram; and Twitter). The goal is to maintain a steady flow of fresh; trend-responsive content that adapts to platform algorithm changes and maximizes audience engagement. Output should include a weekly content calendar with suggested post topics; auto-generated captions; platform-specific scheduling recommendations; and a list of trending hashtags.
 </context>
 
@@ -254,7 +239,7 @@ AI-Enhanced Social Media Content Planning and Scheduling,Social Media Manager; D
 <tone>
   Use a professional; supportive; and practical tone. Aim to empower social media teams with clear; actionable plans that boost productivity and impact.
 </tone>"
-Comprehensive AI-Enhanced Market & Competitive Analysis Prompt,Market Researcher; Business Development Manager,Analyzing market trends and competitor data to inform strategic business decisions,"<context>
+Marketing / Business Development,Comprehensive AI-Enhanced Market & Competitive Analysis Prompt,Market Researcher; Business Development Manager,Analyzing market trends and competitor data to inform strategic business decisions,"<context>
   The content will be used to create comprehensive market and competitive analysis reports for business strategy and leadership review. The output should summarize key market trends; major competitors; opportunities; and potential threats; using current market and competitor data provided by the user. 
   The report should be actionable and concise; featuring visual summaries such as bullet points; comparison tables; and a short executive summary. Highlight any significant changes; emerging trends; or strategic moves by competitors relevant to the user's industry.
 </context>
@@ -271,7 +256,7 @@ Comprehensive AI-Enhanced Market & Competitive Analysis Prompt,Market Researcher
 <tone>
   Use a formal; concise; and analytical tone. The content should be authoritative and actionable; designed to inform strategic decisions at a leadership level.
 </tone>"
-AI-Driven; SEO-Optimized Product Description Generation,Marketer; Product Marketing Manager,Writing clear; persuasive; and keyword-optimized product descriptions for eCommerce at scale,"<context>
+Marketing / eCommerce,AI-Driven; SEO-Optimized Product Description Generation,Marketer; Product Marketing Manager,Writing clear; persuasive; and keyword-optimized product descriptions for eCommerce at scale,"<context>
   The content will be used to create high-quality; compelling; and SEO-optimized product descriptions for eCommerce platforms. Outputs should enhance the customer experience; drive conversions; and improve online visibility. Each description should be tailored to the target audience; include relevant keywords; and clearly highlight product features; benefits; and unique selling points.
 </context>
 
@@ -286,7 +271,7 @@ AI-Driven; SEO-Optimized Product Description Generation,Marketer; Product Market
 <tone>
   Use a persuasive; engaging; and customer-focused tone. Aim to maximize both SEO performance and sales conversion through clear; attractive; and benefits-driven language.
 </tone>"
-AI-Generated Meeting Summaries and Action Items,Project Manager; Team Lead,Automatically summarizing meeting notes and extracting actionable next steps for effective team follow-through,"<context>
+Project Management,AI-Generated Meeting Summaries and Action Items,Project Manager; Team Lead,Automatically summarizing meeting notes and extracting actionable next steps for effective team follow-through,"<context>
   The content will be used to automatically summarize meeting notes; extract key discussion points; and format clear; actionable next steps. The summary should be concise; organized; and suitable for quick distribution to project teams. Output should include a meeting overview; main decisions; key discussion points; and a bullet-point list of assigned action items with owners and deadlines.
 </context>
 
@@ -301,7 +286,7 @@ AI-Generated Meeting Summaries and Action Items,Project Manager; Team Lead,Autom
 <tone>
   Use a professional; succinct; and action-oriented tone. Aim to improve team productivity; alignment; and accountability through clarity and precision.
 </tone>"
-Questions to Clarify and Set Measurable Sales Goals,Sales Manager; Sales Team Lead,Defining clear; measurable; and actionable sales goals,"<context>
+Sales,Questions to Clarify and Set Measurable Sales Goals,Sales Manager; Sales Team Lead,Defining clear; measurable; and actionable sales goals,"<context>
   The content will be used during a sales team meeting or planning session to clarify and establish concrete; measurable sales goals for a company in the [industry] sector. The output should be a list of 10 thoughtful questions that help the team reflect on current performance; desired outcomes; market context; and actionable steps for achieving growth.
   The questions should guide the team in developing goals that are specific; measurable; achievable; relevant; and time-bound (SMART).
 </context>
@@ -318,7 +303,7 @@ Questions to Clarify and Set Measurable Sales Goals,Sales Manager; Sales Team Le
 <tone>
   Use a professional; motivating; and collaborative tone. The questions should encourage honest assessment and proactive goal-setting.
 </tone>"
-Clarifying and Identifying the Best Target Market(s) for Sales Growth,Sales Manager; Marketing Strategist; Business Development Lead,Determining the optimal target market(s) to boost sales,"<context>
+Sales / Marketing,Clarifying and Identifying the Best Target Market(s) for Sales Growth,Sales Manager; Marketing Strategist; Business Development Lead,Determining the optimal target market(s) to boost sales,"<context>
   The content will be used by a company in the [industry] sector; currently serving [current target market] in [geographic location]; to refine and clarify its target market strategy. The output should be a list of 10 probing questions designed to help the team assess current and potential markets; uncover growth opportunities; and prioritize the most promising target market(s) for boosting sales.
   The questions should prompt deep analysis of customer segments; buying behaviors; market trends; and competitive positioning.
 </context>
@@ -335,7 +320,7 @@ Clarifying and Identifying the Best Target Market(s) for Sales Growth,Sales Mana
 <tone>
   Use a professional; analytical; and growth-oriented tone. The questions should inspire thoughtful discussion and focused analysis.
 </tone>"
-Tactical Sales Strategy Blueprint for Targeted Customer Acquisition,Sales Strategist / Sales Manager,Internal Reference for Building and Executing a Targeted Sales Plan,"<context>
+Sales,Tactical Sales Strategy Blueprint for Targeted Customer Acquisition,Sales Strategist / Sales Manager,Internal Reference for Building and Executing a Targeted Sales Plan,"<context>
   The sales strategy will be used as an internal reference document for the sales leadership team and managers. Its main purpose is to serve as a tactical blueprint for targeting and acquiring customers based on the business's unique characteristics and current challenges. The output must always be in a markdown table format with three columns: Sales Channels; Sales Tactics; and Success Metrics. Ensure recommendations are tailored to the information provided below and are directly actionable.
   **Business Details to be filled in:**
   - Business type: [INSERT BUSINESS TYPE]
@@ -362,7 +347,7 @@ Tactical Sales Strategy Blueprint for Targeted Customer Acquisition,Sales Strate
 <tone>
   Use a professional; strategic; and actionable tone focused on informing and enabling decision-makers.
 </tone>"
-Comprehensive Sales Strategy Table Generator,Sales Strategist / Sales Manager,Developing an actionable; data-driven sales plan targeting specific customer profiles,"<context>
+Sales,Comprehensive Sales Strategy Table Generator,Sales Strategist / Sales Manager,Developing an actionable; data-driven sales plan targeting specific customer profiles,"<context>
   The sales strategy will be used as an internal reference document for the sales leadership team and managers. Its main purpose is to serve as a tactical blueprint for targeting and acquiring customers based on the business's unique characteristics and current challenges. The output must always be in a markdown table format with three columns: Sales Channels; Sales Tactics; and Success Metrics. Ensure recommendations are tailored to the information provided below and are directly actionable.
   **Business Details to be filled in:**
   - Business type: [INSERT BUSINESS TYPE]
@@ -389,7 +374,7 @@ Comprehensive Sales Strategy Table Generator,Sales Strategist / Sales Manager,De
 <tone>
   Use a professional; strategic; and actionable tone focused on informing and enabling decision-makers.
 </tone>"
-AI-Powered Personalized Email Outreach and Follow-Up,Sales Representative; Administrative Assistant,Drafting; personalizing; and automating outreach and follow-up emails across multiple campaigns,"<context>
+Sales,AI-Powered Personalized Email Outreach and Follow-Up,Sales Representative; Administrative Assistant,Drafting; personalizing; and automating outreach and follow-up emails across multiple campaigns,"<context>
   The content will be used to draft and personalize outreach and follow-up emails at scale; leveraging prospect data and campaign objectives. The output should include tailored email templates for initial outreach and follow-up; suggestions for personalization based on recipient data (such as name; company; and recent activity); and recommended follow-up schedules for optimal engagement. Emails must balance personalization with efficiency to support multiple campaigns simultaneously.
 </context>
 
@@ -404,7 +389,7 @@ AI-Powered Personalized Email Outreach and Follow-Up,Sales Representative; Admin
 <tone>
   Use a professional; personable; and persuasive tone. Aim to foster positive relationships; encourage responses; and drive conversions through clear and engaging communication.
 </tone>"
-AI-Enhanced Slide Deck and Visual Aid Generation Prompt,Business Analyst; Consultant,Creating slide decks and visual aids for professional; data-driven presentations,"<context>
+Strategy / Business Analysis,AI-Enhanced Slide Deck and Visual Aid Generation Prompt,Business Analyst; Consultant,Creating slide decks and visual aids for professional; data-driven presentations,"<context>
   The content will be used to quickly create polished; data-driven slide decks and visual aids for business presentations. The user will provide raw data; key findings; recommendations; and any specific objectives or themes for the presentation.
   The output should include a clear slide outline; suggested slide titles; key talking points; and recommendations for visual aids (such as charts; graphs; or infographics). Ensure each section highlights core insights and supports effective client or stakeholder communication.
   Present the structure as a bullet-point outline or table for easy transfer to presentation software.
@@ -422,7 +407,7 @@ AI-Enhanced Slide Deck and Visual Aid Generation Prompt,Business Analyst; Consul
 <tone>
   Use a professional; concise; and impactful tone. The content should aim to inform; persuade; and facilitate efficient communication of business insights.
 </tone>"
-Consumer Purchase Pattern Analysis Table & Insights,Business Analyst / Data Analyst,Analyzing consumer purchase patterns to inform product; marketing; and sales strategies,"<context>
+Strategy / Business Analysis,Consumer Purchase Pattern Analysis Table & Insights,Business Analyst / Data Analyst,Analyzing consumer purchase patterns to inform product; marketing; and sales strategies,"<context>
   You are a data-driven business analyst tasked with helping a user analyze consumer purchase patterns to inform strategic business decisions. Your goal is to create a comprehensive table to track and analyze these patterns across various dimensions; enabling easy identification of trends; motivations; and high-value consumer segments.
   **User Inputs:**
   - Number of rows to include in the table: [NUMBER OF ROWS]
@@ -456,7 +441,7 @@ Consumer Purchase Pattern Analysis Table & Insights,Business Analyst / Data Anal
 <tone>
   Use a professional; analytical; and objective tone; focused on clarity; insight; and strategic value.
 </tone>"
-Consumer Purchase Pattern Analysis Framework,Business Analyst / Data Analyst,Tracking and analyzing consumer purchase patterns to inform strategic decisions,"<context>
+Strategy / Business Analysis,Consumer Purchase Pattern Analysis Framework,Business Analyst / Data Analyst,Tracking and analyzing consumer purchase patterns to inform strategic decisions,"<context>
   You are a data-driven business analyst tasked with helping a user analyze consumer purchase patterns to inform strategic business decisions. Your goal is to create a comprehensive table to track and analyze these patterns across various dimensions; enabling easy identification of trends; motivations; and high-value consumer segments.
   **User Inputs:**
   - Number of rows to include in the table: [NUMBER OF ROWS]
@@ -490,7 +475,7 @@ Consumer Purchase Pattern Analysis Framework,Business Analyst / Data Analyst,Tra
 <tone>
   Use a professional; analytical; and objective tone; focused on clarity; insight; and strategic value.
 </tone>"
-Comprehensive SWOT Analysis Prompt,Business Strategist / Strategy Analyst,Conducting a detailed SWOT analysis for business planning; strategic review; or investor presentations.,"<context>
+Strategy / Executive Leadership,Comprehensive SWOT Analysis Prompt,Business Strategist / Strategy Analyst,Conducting a detailed SWOT analysis for business planning; strategic review; or investor presentations.,"<context>
   The content will be used as an internal strategic planning resource to inform business leadership. The primary objective is to produce a comprehensive SWOT analysis; delivered as a markdown table; evaluating internal strengths and weaknesses as well as external opportunities and threats. This analysis will be specific to the provided business type; industry; target market; key competitors; and business goals.
   The output must be in a markdown table format with four columns: Strengths; Weaknesses; Opportunities; and Threats; with at least 5 detailed and relevant points per category. 
   **INFORMATION PROVIDED:**  
@@ -523,7 +508,7 @@ Comprehensive SWOT Analysis Prompt,Business Strategist / Strategy Analyst,Conduc
 <tone>
   Adopt a professional; objective; and analytical tone. Aim to inform and guide high-level business decisions with your analysis.
 </tone>"
-AI-Driven Product Requirement Document (PRD) Generation,Product Manager,Creating comprehensive and actionable PRDs for new products or features,"<context>
+Product Management,AI-Driven Product Requirement Document (PRD) Generation,Product Manager,Creating comprehensive and actionable PRDs for new products or features,"<context>
   The content will be used by a Product Manager to draft a comprehensive Product Requirements Document (PRD) for a new product or feature. The user will provide high-level objectives; target user personas; key functionalities; and business goals. The output should be a structured PRD outline including sections like Purpose & Vision; Target Users; User Stories; Functional & Non-Functional Requirements; Success Metrics; and Project Timeline. It should be clear; actionable; and ready for review by development; design; and stakeholder teams.
 </context>
 
@@ -538,7 +523,7 @@ AI-Driven Product Requirement Document (PRD) Generation,Product Manager,Creating
 <tone>
   Use a professional; clear; and goal-oriented tone. The content should facilitate alignment; reduce misunderstandings; and accelerate the product development lifecycle.
 </tone>"
-AI-Assisted Inventory Optimization and Demand Forecasting,Supply Chain Manager,Analyzing data to optimize inventory levels and predict future demand,"<context>
+Supply Chain Management,AI-Assisted Inventory Optimization and Demand Forecasting,Supply Chain Manager,Analyzing data to optimize inventory levels and predict future demand,"<context>
   The content will be used by a Supply Chain Manager to analyze historical sales data; current inventory levels; supplier lead times; and market demand forecasts. The goal is to generate an optimized inventory plan that minimizes holding costs; reduces stockouts; and improves overall supply chain efficiency. The output should include recommended reorder points; order quantities; a summary of obsolete or slow-moving stock; and a forecasted demand plan for the next quarter. Visualizations like graphs or tables are encouraged for clarity.
 </context>
 
@@ -553,7 +538,7 @@ AI-Assisted Inventory Optimization and Demand Forecasting,Supply Chain Manager,A
 <tone>
   Use a professional; analytical; and solution-focused tone. Aim to empower supply chain professionals with clear; actionable insights to drive efficiency and cost savings.
 </tone>"
-AI-Powered Content Audit and Strategy Refinement,Content Strategist,Evaluating existing content and refining the overall content strategy,"<context>
+Content Strategy,AI-Powered Content Audit and Strategy Refinement,Content Strategist,Evaluating existing content and refining the overall content strategy,"<context>
   The content will be used by a Content Strategist to perform a comprehensive audit of an organization's existing content assets (blogs; web pages; social media posts; etc.). The user will provide access to content repositories or a list of key content pieces. The output should include an analysis of content performance (traffic; engagement); alignment with brand messaging; content gaps; and recommendations for repurposing; updating; or retiring content. A strategic plan for future content initiatives based on audit findings is also required.
 </context>
 
@@ -568,7 +553,7 @@ AI-Powered Content Audit and Strategy Refinement,Content Strategist,Evaluating e
 <tone>
   Use a professional; insightful; and strategic tone. Aim to transform content chaos into a clear; actionable plan that drives engagement and supports business goals.
 </tone>"
-AI-Enhanced Risk Assessment and Mitigation Planning,Risk Manager,Identifying; analyzing; and planning for potential business risks,"<context>
+Risk Management,AI-Enhanced Risk Assessment and Mitigation Planning,Risk Manager,Identifying; analyzing; and planning for potential business risks,"<context>
   The content will be used by a Risk Manager to identify; analyze; and evaluate potential risks (financial; operational; strategic; compliance) facing a business or project. The user will provide context such as industry; recent events; business initiatives; or areas of concern. The output should be a structured risk assessment report; including a risk register with identified risks; their likelihood and impact; risk owners; and initial mitigation strategies. The report should prioritize risks and provide a clear overview for management review.
 </context>
 
@@ -583,7 +568,7 @@ AI-Enhanced Risk Assessment and Mitigation Planning,Risk Manager,Identifying; an
 <tone>
   Use a formal; objective; and analytical tone. Aim to provide a clear; actionable view of the risk landscape to protect and enhance business value.
 </tone>"
-AI-Supported Partnership and Alliance Identification,Business Development Manager,Researching and identifying strategic partnerships or acquisition targets,"<context>
+Business Development,AI-Supported Partnership and Alliance Identification,Business Development Manager,Researching and identifying strategic partnerships or acquisition targets,"<context>
   The content will be used by a Business Development Manager to research and identify potential strategic partners; alliances; or acquisition targets. The user will specify the industry; business objectives (e.g.; market expansion; technology acquisition); and any initial criteria or companies of interest. The output should include a list of qualified potential partners; a brief profile for each (including strengths; market position; and strategic fit); and an initial assessment of potential collaboration models (e.g.; joint venture; acquisition; distribution agreement). 
 </context>
 
@@ -598,7 +583,7 @@ AI-Supported Partnership and Alliance Identification,Business Development Manage
 <tone>
   Use a professional; strategic; and opportunity-focused tone. Aim to uncover valuable pathways for growth and provide a solid foundation for strategic business development initiatives.
 </tone>"
-AI-Assisted Disaster Recovery and Business Continuity Planning,IT Manager / DevOps Engineer,Creating a robust plan for system recovery and business continuity,"<context>
+IT Management,AI-Assisted Disaster Recovery and Business Continuity Planning,IT Manager / DevOps Engineer,Creating a robust plan for system recovery and business continuity,"<context>
   The content will be used by an IT Manager or DevOps Engineer to draft a comprehensive disaster recovery (DR) and business continuity (BC) plan. The user will provide information about critical systems; infrastructure; Recovery Time Objectives (RTOs); and Recovery Point Objectives (RPOs). The output should be a detailed plan outlining procedures for data backup; system restoration; communication protocols during an outage; and roles/responsibilities for the IT team. It should also include a testing and maintenance schedule for the plan.
 </context>
 
@@ -613,7 +598,7 @@ AI-Assisted Disaster Recovery and Business Continuity Planning,IT Manager / DevO
 <tone>
   Use a professional; technical; and proactive tone. Aim to instill confidence in the organization's ability to recover from disruptions swiftly and effectively.
 </tone>"
-AI-Driven Custom Employee Onboarding Program Design,Training Manager / L&D Specialist,Designing a personalized and effective employee onboarding experience,"<context>
+Learning & Development,AI-Driven Custom Employee Onboarding Program Design,Training Manager / L&D Specialist,Designing a personalized and effective employee onboarding experience,"<context>
   The content will be used by a Training Manager or L&D Specialist to design a customized employee onboarding program. The user will provide details about the company culture; key roles/departments involved; job functions for new hires; and any existing onboarding materials. The output should be a structured onboarding curriculum including a timeline; key milestones; training modules (with topics and delivery methods); mentorship guidelines; and feedback/check-in points. The program should aim to accelerate new hire productivity and integration.
 </context>
 
@@ -628,7 +613,7 @@ AI-Driven Custom Employee Onboarding Program Design,Training Manager / L&D Speci
 <tone>
   Use a professional; welcoming; and supportive tone. Aim to create a positive first impression of the company and set new employees up for long-term success.
 </tone>"
-AI-Supported Crisis Communication Plan and Messaging,PR Manager / Communications Specialist,Drafting crisis communication strategies and key messaging templates,"<context>
+Communications,AI-Supported Crisis Communication Plan and Messaging,PR Manager / Communications Specialist,Drafting crisis communication strategies and key messaging templates,"<context>
   The content will be used by a Public Relations (PR) Manager or Communications Specialist to draft a crisis communication plan and key messaging templates. The user will specify the organization type; potential crisis scenarios (e.g.; data breach; product recall; negative media coverage); key stakeholders; and approved spokespersons. The output should include a step-by-step crisis response protocol; sample holding statements; templates for press releases and social media posts; and a list of key contacts (media; legal; internal leaders). The plan should emphasize speed; transparency; and consistency.
 </context>
 
@@ -643,7 +628,7 @@ AI-Supported Crisis Communication Plan and Messaging,PR Manager / Communications
 <tone>
   Use a professional; calm; and authoritative tone. Aim to provide a clear roadmap for managing communication under pressure to maintain trust and control the narrative.
 </tone>"
-AI-Enhanced Data Privacy Impact Assessment (DPIA),Compliance Officer / Data Privacy Manager,Conducting assessments to ensure data handling practices meet legal standards,"<context>
+Compliance,AI-Enhanced Data Privacy Impact Assessment (DPIA),Compliance Officer / Data Privacy Manager,Conducting assessments to ensure data handling practices meet legal standards,"<context>
   The content will be used by a Compliance Officer or Data Privacy Manager to draft a comprehensive data privacy impact assessment (DPIA) or compliance checklist. The user will provide details about a project; new technology; or process that involves personal data handling. The output should identify potential privacy risks; assess compliance with regulations (like GDPR or CCPA); and propose mitigation measures. The document should guide the team through evaluating data flows; storage; access; and third-party sharing; and conclude with a risk rating and recommendations.
 </context>
 
@@ -658,7 +643,7 @@ AI-Enhanced Data Privacy Impact Assessment (DPIA),Compliance Officer / Data Priv
 <tone>
   Use a formal; precise; and objective tone. Aim to ensure legal compliance and protect the organization and its users from data privacy risks.
 </tone>"
-AI-Powered Supplier Evaluation and Selection Framework,Procurement Manager / Category Manager,Developing a structured approach to evaluate and select suppliers,"<context>
+Procurement,AI-Powered Supplier Evaluation and Selection Framework,Procurement Manager / Category Manager,Developing a structured approach to evaluate and select suppliers,"<context>
   The content will be used by a Procurement Manager or Category Manager to conduct a thorough supplier evaluation and selection process. The user will provide requirements such as goods/services needed; budget constraints; delivery timelines; and any initial list of potential suppliers. The output should include a structured evaluation framework (e.g.; scoring matrix); a comparison report of shortlisted suppliers based on criteria like cost; quality; reliability; and compliance; and a final recommendation with rationale. It should also outline key negotiation points and contract terms.
 </context>
 
@@ -673,7 +658,7 @@ AI-Powered Supplier Evaluation and Selection Framework,Procurement Manager / Cat
 <tone>
   Use a professional; analytical; and value-driven tone. Aim to optimize procurement outcomes by selecting suppliers that offer the best overall value and lowest risk.
 </tone>"
-AI-Driven Comprehensive Facilities Audit and Maintenance Planning,Facilities Manager,Assessing and planning for the upkeep of physical workspaces,"<context>
+Facilities Management,AI-Driven Comprehensive Facilities Audit and Maintenance Planning,Facilities Manager,Assessing and planning for the upkeep of physical workspaces,"<context>
   The content will be used by a Facilities Manager to conduct a comprehensive facilities audit and create a strategic maintenance plan. The user will provide information about the types of facilities (office; warehouse; retail); size; age; current condition; and any known issues. The output should include a detailed audit report listing all assets and their condition; prioritized maintenance and repair tasks; a preventive maintenance schedule; and a budget estimate for upkeep and improvements. Recommendations for space optimization or energy efficiency can also be included.
 </context>
 
@@ -688,7 +673,7 @@ AI-Driven Comprehensive Facilities Audit and Maintenance Planning,Facilities Man
 <tone>
   Use a professional; detail-oriented; and solution-focused tone. Aim to ensure facilities support business operations effectively while managing costs and risks.
 </tone>"
-AI-Assisted Business Process Analysis and Optimization,Quality Assurance Manager / Process Improvement Specialist,Mapping and improving current business processes for efficiency,"<context>
+Quality / Process Improvement,AI-Assisted Business Process Analysis and Optimization,Quality Assurance Manager / Process Improvement Specialist,Mapping and improving current business processes for efficiency,"<context>
   The content will be used by a Quality Assurance Manager or Process Improvement Specialist to map out and analyze current business processes. The user will specify the process or department to be analyzed (e.g.; order fulfillment; customer onboarding) and any initial pain points or goals (e.g.; reduce errors; improve speed). The output should include a detailed process map (flowchart steps); identification of bottlenecks and inefficiencies; root cause analysis for major issues; and a set of prioritized recommendations for process improvement or re-engineering. Lean or Six Sigma methodologies can be referenced.
 </context>
 
@@ -703,7 +688,7 @@ AI-Assisted Business Process Analysis and Optimization,Quality Assurance Manager
 <tone>
   Use a professional; analytical; and improvement-focused tone. Aim to drive operational excellence by making processes more efficient; effective; and adaptable.
 </tone>"
-AI-Powered Corporate Event Planning and Execution Strategy,Event Manager / Marketing Coordinator,Planning and executing successful corporate events,"<context>
+Event Management,AI-Powered Corporate Event Planning and Execution Strategy,Event Manager / Marketing Coordinator,Planning and executing successful corporate events,"<context>
   The content will be used by an Event Manager or Marketing Coordinator to plan and execute a successful corporate event (conference; product launch; team building). The user will provide the event objective; target audience; tentative date; budget range; and preferred style (virtual; hybrid; in-person). The output should be a detailed event plan including a timeline; budget breakdown; venue/technical requirements; marketing and promotion strategy; speaker or activity lineup; and a risk management plan. It should also outline key success metrics and post-event follow-up actions.
 </context>
 
@@ -718,7 +703,7 @@ AI-Powered Corporate Event Planning and Execution Strategy,Event Manager / Marke
 <tone>
   Use a professional; enthusiastic; and organized tone. Aim to inspire confidence in the event's success while ensuring all logistical aspects are meticulously planned.
 </tone>"
-AI-Supported Interactive Workshop and Training Session Design,Corporate Trainer / L&D Specialist,Designing engaging and effective training sessions or workshops,"<context>
+Corporate Training,AI-Supported Interactive Workshop and Training Session Design,Corporate Trainer / L&D Specialist,Designing engaging and effective training sessions or workshops,"<context>
   The content will be used by a Corporate Trainer or Learning & Development Specialist to design and deliver effective training sessions or workshops. The user will specify the training topic (e.g.; leadership skills; software training; compliance); target audience (role; experience level); desired learning outcomes; and session duration. The output should include a detailed session plan with learning objectives; an agenda; interactive activities or exercises; required materials; and methods for assessing participant understanding. It should also provide tips for engaging different learning styles and managing group dynamics.
 </context>
 
@@ -733,7 +718,7 @@ AI-Supported Interactive Workshop and Training Session Design,Corporate Trainer 
 <tone>
   Use a professional; encouraging; and interactive tone. Aim to equip trainers with the tools and confidence to deliver impactful learning experiences.
 </tone>"
-AI-Facilitated New Product/Service Idea Generation and Evaluation,Innovation Manager / R&D Lead,Generating and evaluating new ideas for products or services,"<context>
+Innovation Management,AI-Facilitated New Product/Service Idea Generation and Evaluation,Innovation Manager / R&D Lead,Generating and evaluating new ideas for products or services,"<context>
   The content will be used by an Innovation Manager or R&D Lead to generate and evaluate new product or service ideas. The user will provide a strategic theme or challenge area (e.g.; ""sustainable packaging""; ""enhancing remote work experience""); target market; and any constraints or existing technologies to consider. The output should include a list of diverse; creative ideas generated through structured ideation techniques; a brief description for each idea; an initial assessment of feasibility and potential impact; and a shortlist of the most promising concepts for further development or prototyping.
 </context>
 
@@ -748,7 +733,7 @@ AI-Facilitated New Product/Service Idea Generation and Evaluation,Innovation Man
 <tone>
   Use an innovative; exploratory; and evaluative tone. Aim to spark creativity while providing a structured approach to turning ideas into actionable opportunities.
 </tone>"
-AI-Guided Organizational Transformation and Adoption Strategy,Change Management Consultant / Project Manager,Guiding an organization through a significant internal transformation,"<context>
+Change Management,AI-Guided Organizational Transformation and Adoption Strategy,Change Management Consultant / Project Manager,Guiding an organization through a significant internal transformation,"<context>
   The content will be used by a Change Management Consultant or Project Manager to guide an organization through a significant internal transformation (e.g.; digital transformation; restructuring; new system implementation). The user will provide the nature of the change; affected departments; and initial stakeholder concerns. The output should be a structured change management plan including a communication strategy; stakeholder analysis and engagement plan; training and support roadmap; and a plan to manage resistance and sustain adoption. It should also define key milestones and success metrics for the change initiative.
 </context>
 
@@ -763,7 +748,7 @@ AI-Guided Organizational Transformation and Adoption Strategy,Change Management 
 <tone>
   Use a professional; empathetic; and guiding tone. Aim to navigate the human side of change effectively; ensuring a smooth transition and long-term success.
 </tone>"
-AI-Crafted Employee Newsletters and Announcements,Internal Communications Manager / HR Specialist,Creating clear and engaging internal communications for employees,"<context>
+Internal Communications,AI-Crafted Employee Newsletters and Announcements,Internal Communications Manager / HR Specialist,Creating clear and engaging internal communications for employees,"<context>
   The content will be used by an Internal Communications Manager or HR Specialist to craft clear; engaging; and informative internal communications for employees. The user will specify the topic (e.g.; company update; policy change; recognition announcement); the key message; and the target audience (all employees; specific department; new hires). The output should be a draft communication suitable for the chosen channel (email newsletter; intranet post; town hall script) that is concise; on-brand; and encourages the desired employee action or understanding.
 </context>
 
@@ -778,7 +763,7 @@ AI-Crafted Employee Newsletters and Announcements,Internal Communications Manage
 <tone>
   Use a professional; engaging; and informative tone. Aim to strengthen internal culture and ensure employees feel well-informed and valued.
 </tone>"
-AI-Developed Cybersecurity Policy and Incident Response Plan,Security Manager / IT Security Specialist,Developing robust cybersecurity policies and response plans,"<context>
+Information Security,AI-Developed Cybersecurity Policy and Incident Response Plan,Security Manager / IT Security Specialist,Developing robust cybersecurity policies and response plans,"<context>
   The content will be used by a Security Manager or IT Security Specialist to develop a robust cybersecurity policy and incident response plan. The user will provide the organization's size; industry; existing infrastructure; and any recent security concerns or incidents. The output should include a comprehensive cybersecurity policy covering acceptable use; data protection; access control; and incident reporting. It should also detail a step-by-step incident response plan; including roles and responsibilities; communication protocols; and recovery procedures.
 </context>
 
@@ -793,7 +778,7 @@ AI-Developed Cybersecurity Policy and Incident Response Plan,Security Manager / 
 <tone>
   Use a formal; authoritative; and precautionary tone for the policy. For the response plan; use a professional; urgent; and solution-focused tone. Aim to protect the organization proactively and respond decisively to threats.
 </tone>"
-AI-Driven Customer Health Score and Success Planning,Customer Success Manager / Account Manager,Creating personalized plans to ensure customer satisfaction and growth,"<context>
+Customer Success,AI-Driven Customer Health Score and Success Planning,Customer Success Manager / Account Manager,Creating personalized plans to ensure customer satisfaction and growth,"<context>
   The content will be used by a Customer Success Manager or Account Manager to create personalized customer success plans and health score assessments. The user will provide customer account details; usage data; support history; and business objectives. The output should include a customer health score; a plan outlining key success metrics; proactive engagement strategies; potential upsell/cross-sell opportunities; and a schedule for regular check-ins. The goal is to ensure high customer satisfaction; retention; and growth.
 </context>
 
@@ -808,7 +793,7 @@ AI-Driven Customer Health Score and Success Planning,Customer Success Manager / 
 <tone>
   Use a professional; consultative; and value-driven tone. Aim to nurture strong partnerships and drive mutual growth through proactive and personalized service.
 </tone>"
-AI-Structured Brand Positioning and Messaging Framework,Brand Manager / Marketing Strategist,Developing a comprehensive brand positioning and messaging framework,"<context>
+Brand Management,AI-Structured Brand Positioning and Messaging Framework,Brand Manager / Marketing Strategist,Developing a comprehensive brand positioning and messaging framework,"<context>
   The content will be used by a Brand Manager or Marketing Strategist to develop a comprehensive brand positioning and messaging framework. The user will provide the brand name; core values; target audience; key competitors; and current market perception. The output should include a clear brand positioning statement; a set of brand pillars; key messaging themes for different audiences; and guidelines for tone of voice and visual identity application. This framework should guide all future marketing and communication efforts.
 </context>
 
@@ -823,7 +808,7 @@ AI-Structured Brand Positioning and Messaging Framework,Brand Manager / Marketin
 <tone>
   Use a professional; inspiring; and definitive tone. Aim to create a strong; enduring brand identity that connects deeply with customers and stands out in the market.
 </tone>"
-AI-Enhanced Market Benchmarking and Strategic Insights,Corporate Strategy Analyst / Business Development Manager,Performing a thorough competitive analysis and benchmarking study,"<context>
+Competitive Analysis,AI-Enhanced Market Benchmarking and Strategic Insights,Corporate Strategy Analyst / Business Development Manager,Performing a thorough competitive analysis and benchmarking study,"<context>
   The content will be used by a Corporate Strategy Analyst or Business Development Manager to perform a thorough competitive analysis and benchmarking study. The user will specify the industry; key competitors to analyze; and strategic focus areas (e.g.; pricing; product features; market share; customer satisfaction). The output should be a detailed report comparing the user's company against competitors across the chosen dimensions; highlighting strengths; weaknesses; opportunities; and threats. Include actionable insights and strategic recommendations for gaining a competitive edge.
 </context>
 
@@ -838,7 +823,7 @@ AI-Enhanced Market Benchmarking and Strategic Insights,Corporate Strategy Analys
 <tone>
   Use a formal; analytical; and objective tone. Aim to inform strategic planning with clear; actionable intelligence about the competitive environment.
 </tone>"
-AI-Analyzed Emerging Technology Trends and Applications,R&D Lead / Product Engineer,Exploring emerging technologies and scientific advancements,"<context>
+Research & Development,AI-Analyzed Emerging Technology Trends and Applications,R&D Lead / Product Engineer,Exploring emerging technologies and scientific advancements,"<context>
   The content will be used by a Research and Development (R&D) Lead or Product Engineer to explore emerging technologies and scientific advancements relevant to their field. The user will specify the domain (e.g.; renewable energy; biotechnology; AI/ML applications) and a particular area of interest or challenge. The output should be a summary of recent breakthroughs; key research institutions or companies involved; potential applications; and an assessment of how these trends might impact the user's industry or R&D roadmap in the short and long term.
 </context>
 
@@ -853,7 +838,7 @@ AI-Analyzed Emerging Technology Trends and Applications,R&D Lead / Product Engin
 <tone>
   Use a professional; informative; and exploratory tone. Aim to illuminate the path forward in technology and inspire informed strategic thinking.
 </tone>"
-AI-Informed ESG Strategy and Reporting,Sustainability Manager / CSR Lead,Developing a corporate sustainability report or ESG strategy,"<context>
+Sustainability / CSR,AI-Informed ESG Strategy and Reporting,Sustainability Manager / CSR Lead,Developing a corporate sustainability report or ESG strategy,"<context>
   The content will be used by a Sustainability Manager or CSR Lead to develop a corporate sustainability report or an environmental; social; and governance (ESG) strategy. The user will provide company background; current initiatives; industry benchmarks; and key stakeholder expectations. The output should include a materiality assessment; specific ESG goals with targets and KPIs; a roadmap for implementation; and a communication strategy for reporting progress. It should align with recognized frameworks like GRI or SASB standards.
 </context>
 
@@ -868,7 +853,7 @@ AI-Informed ESG Strategy and Reporting,Sustainability Manager / CSR Lead,Develop
 <tone>
   Use a professional; responsible; and aspirational tone. Aim to build trust and showcase the organization's commitment to positive environmental and social impact.
 </tone>"
-AI-Designed Employee Benefits Package,Benefits Manager / HR Specialist,Designing or refining an employee benefits package,"<context>
+Human Resources (Benefits),AI-Designed Employee Benefits Package,Benefits Manager / HR Specialist,Designing or refining an employee benefits package,"<context>
   The content will be used by a Benefits Manager or HR Specialist to design or refine an employee benefits package. The user will provide company size; industry; budget constraints; current benefits offerings; and any feedback from employees or market data. The output should include an analysis of the current benefits landscape; a comparison with competitor offerings; a recommended package structure (core benefits; voluntary options; wellness programs); and a communication plan to effectively launch or promote the benefits to employees.
 </context>
 
@@ -883,7 +868,7 @@ AI-Designed Employee Benefits Package,Benefits Manager / HR Specialist,Designing
 <tone>
   Use a professional; supportive; and strategic tone. Aim to enhance employee value proposition and overall well-being through thoughtfully designed benefits.
 </tone>"
-AI-Assisted Due Diligence and Integration Planning,M&A Analyst / Integration Manager,Assessing potential acquisition targets or planning post-merger integration,"<context>
+Mergers & Acquisitions,AI-Assisted Due Diligence and Integration Planning,M&A Analyst / Integration Manager,Assessing potential acquisition targets or planning post-merger integration,"<context>
   The content will be used by a Merger and Acquisition (M&A) Analyst or Integration Manager to assess potential acquisition targets or plan post-merger integration. The user will specify the target company; strategic rationale; key financials; and areas of focus (e.g.; cultural fit; operational synergies; potential risks). The output should be a due diligence checklist or integration plan covering financial; legal; operational; and cultural aspects. Include a risk assessment; synergy identification; and a high-level timeline for key integration activities.
 </context>
 
@@ -898,68 +883,3 @@ AI-Assisted Due Diligence and Integration Planning,M&A Analyst / Integration Man
 <tone>
   Use a professional; analytical; and decisive tone. Aim to ensure successful deal execution by providing clear; actionable insights and plans.
 </tone>"
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
-0,0,0,0
