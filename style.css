@@ -1,23 +1,42 @@
+:root {
+    --primary-bg: #1a3a4a;
+    --header-bg: #1c2a3a;
+    --card-bg: #2a4a5a;
+    --accent-color: #4fd1c5;
+    --primary-text: #ffffff;
+    --secondary-text: #e2e8f0;
+    --button-primary-bg: #3a6ea5;
+    --border-color: #3a5a6a;
+    --serif-font: Georgia, 'Times New Roman', Times, serif;
+    --sans-serif-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans-serif-font);
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background: linear-gradient(135deg, #1a3a4a, #1c2a3a);
+    color: var(--secondary-text);
 }
 
 header {
-    background-color: #fff;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid #e9ecef;
+    background-color: var(--header-bg);
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border-color);
     text-align: center;
 }
 
 h1 {
     margin: 0;
-    font-size: 2rem;
-    color: #007bff;
+    font-family: var(--serif-font);
+    font-size: 2.5rem;
+    color: var(--primary-text);
+    font-weight: 700;
+}
+
+h1 span {
+    color: var(--accent-color);
 }
 
 main {
@@ -37,11 +56,17 @@ main {
 
 #search-bar {
     flex-grow: 1;
-    padding: 0.75rem;
-    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
     border-radius: 0.25rem;
     font-size: 1rem;
     min-width: 250px;
+    background-color: var(--card-bg);
+    color: var(--primary-text);
+}
+
+#search-bar::placeholder {
+    color: var(--secondary-text);
 }
 
 .filters {
@@ -51,9 +76,10 @@ main {
 
 .filters select {
     padding: 0.75rem;
-    border: 1px solid #ced4da;
+    border: 1px solid var(--border-color);
     border-radius: 0.25rem;
-    background-color: #fff;
+    background-color: var(--card-bg);
+    color: var(--primary-text);
     font-size: 1rem;
 }
 
@@ -64,8 +90,8 @@ main {
 }
 
 .prompt-card {
-    background-color: #fff;
-    border: 1px solid #e9ecef;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
     border-radius: 0.5rem;
     padding: 1.5rem;
     cursor: pointer;
@@ -73,61 +99,71 @@ main {
 }
 
 .prompt-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
+    border-color: var(--accent-color);
 }
 
 .prompt-card h2 {
     margin-top: 0;
-    font-size: 1.25rem;
-    color: #007bff;
+    font-family: var(--serif-font);
+    font-size: 1.5rem;
+    color: var(--accent-color);
 }
 
 .prompt-card .role {
     font-weight: bold;
-    color: #6c757d;
+    color: var(--secondary-text);
     margin-bottom: 0.5rem;
+    font-style: italic;
 }
 
 .prompt-card .description {
-    color: #495057;
+    color: var(--secondary-text);
 }
 
 .prompt-full {
     display: none; /* Hidden by default */
     margin-top: 1rem;
     padding-top: 1rem;
-    border-top: 1px solid #e9ecef;
+    border-top: 1px solid var(--border-color);
 }
 
 .prompt-full pre {
-    background-color: #f1f3f5;
+    background-color: var(--header-bg);
     padding: 1rem;
     border-radius: 0.25rem;
     white-space: pre-wrap;
     word-wrap: break-word;
     font-size: 0.9rem;
+    color: var(--secondary-text);
+    border: 1px solid var(--border-color);
 }
 
 .prompt-full .copy-btn {
-    display: block;
+    display: inline-block;
     margin-top: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     border: none;
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--button-primary-bg);
+    color: var(--primary-text);
     border-radius: 0.25rem;
     cursor: pointer;
     font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
 }
 
 .prompt-full .copy-btn:hover {
-    background-color: #0056b3;
+    background-color: #4a8ac8;
 }
 
 @media (max-width: 768px) {
     .controls {
         flex-direction: column;
         align-items: stretch;
+    }
+    h1 {
+        font-size: 2rem;
     }
 }
